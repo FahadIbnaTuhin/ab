@@ -1,0 +1,28 @@
+/* akta div r upor aro akta div boshate caile z-index use kora hoy.ati use korle position:relative must use korte hobe
+   na hole kaj korbe na.Z-index jar beshi se onno div r upora thakbe.
+   margin auto dile dive center e ashe.
+   z-index defult hishebe 0 thake.ati dile kono poriborton hobe na jodi margin-top and margin-bottom use na kora hoy
+   margin-top and bottom negative use kora hoyese jate div onno div r upora jay.div onno div r upore jabe jodi
+   sey div r z-index onno div r beshi hoy. */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#div1 {
+    height: 200px;
+    background-color: #4E008E;
+}
+#div2 {
+    height: 200px;
+    background-color: red;
+    width: 80%;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+#div3 {
+    height: 200px;
+    background-color: #4E008E;
+}
